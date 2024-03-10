@@ -1,0 +1,48 @@
+{
+  "links": [
+    {
+      "text": "Home",
+      "url": "#topo"
+    },
+    {
+      "text": "Empresa",
+      "url": "#empresa"
+    },
+    {
+      "text": "Serviços",
+      "url": "#servicos"
+    },
+    {
+      "text": "Cases",
+      "url": "#cases"
+    },
+    {
+      "text": "Contato",
+      "url": "#contato"
+    }
+  ],
+  "linksMobile": [
+    {
+      "text": "Home",
+      "url": "#topo"
+    },
+    {
+      "text": "Empresa",
+      "url": "#empresa"
+    },
+    {
+      "text": "Servicos",
+      "url": "#servicos"
+    },
+    {
+      "text": "Cases",
+      "url": "#cases"
+    },
+    {
+      "text": "Contato",
+      "url": "#contato"
+    }
+  ],
+  "social": {},
+  "logos": {}
+}
