@@ -16,3 +16,7 @@
 .linha:hover::before {
   width: 100%; /* Aumenta a largura para 100% quando o mouse está sobre o elemento */
 }
+
+.vidro {
+  background-color: rgba(255, 255, 255, 0.2);
+}

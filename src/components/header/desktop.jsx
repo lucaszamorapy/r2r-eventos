@@ -41,7 +41,7 @@ const Desktop = ({ isOpened, action, links }) => {
       <nav className="hidden lg:flex items-center justify-center">
         <ul className="flex gap-3 items-center lg:gap-6">
           {links.map((link, index) => (
-            <li className="text-sm linha" key={index}>
+            <li className="text-sm linha font-semibold " key={index}>
               {/* Link de rolagem suave */}
               <ScrollLink
                 className="cursor-pointer uppercase text-black"
