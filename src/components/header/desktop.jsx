@@ -1,5 +1,5 @@
 import { Link, Link as ScrollLink } from "react-scroll";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo-2.png";
 import { FaWhatsapp } from "react-icons/fa";
 // import logoBlack from "../../../public/images/logo-preto.png";
 
@@ -16,12 +16,12 @@ const Desktop = ({ isOpened, action, links }) => {
           href="/"
         >
           <img
-            className="xl:w-[90px] xl:h-[70px] md:w-[95px] lg:flex hidden"
+            className="xl:w-[90px] md:w-[95px] lg:flex hidden"
             src={logo}
             alt="Logo Header"
           />
           <img
-            className={`w-[60px] lg:hidden flex-initial lg:absolute ${
+            className={`w-[65px] lg:hidden flex-initial lg:absolute ${
               isOpened ? "rotate-360" : "rotate-0"
             }`}
             src={logo}
