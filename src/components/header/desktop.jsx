@@ -1,5 +1,7 @@
-import { Link as ScrollLink } from "react-scroll";
-// import logo from "/images/logo.jpg";
+import { Link, Link as ScrollLink } from "react-scroll";
+import logo from "../../../public/images/logo.png";
+import { FaWhatsapp } from "react-icons/fa";
+// import logoBlack from "../../../public/images/logo-preto.png";
 
 import "./desktop.css";
 
@@ -15,14 +17,14 @@ const Desktop = ({ isOpened, action, links }) => {
         >
           <img
             className="xl:w-[90px] xl:h-[70px] md:w-[95px] lg:flex hidden"
-            src=""
+            src={logo}
             alt="Logo Header"
           />
           <img
             className={`w-[60px] lg:hidden flex-initial lg:absolute ${
               isOpened ? "rotate-360" : "rotate-0"
             }`}
-            src=""
+            src={logo}
             alt="Logo Header"
           />
         </a>
@@ -41,10 +43,10 @@ const Desktop = ({ isOpened, action, links }) => {
       <nav className="hidden lg:flex items-center justify-center">
         <ul className="flex gap-3 items-center lg:gap-6">
           {links.map((link, index) => (
-            <li className="text-sm linha font-semibold " key={index}>
+            <li className="text-sm font-light" key={index}>
               {/* Link de rolagem suave */}
               <ScrollLink
-                className="cursor-pointer uppercase text-black"
+                className="cursor-pointer uppercase border px-5 py-1 rounded-lg text-white hover:bg-white hover:text-redR2R duration-300 ease-out"
                 to={link.url.substring(1)}
                 spy={true}
                 smooth={true}
@@ -55,6 +57,15 @@ const Desktop = ({ isOpened, action, links }) => {
               </ScrollLink>
             </li>
           ))}
+          <a
+            href="https://wa.me/5511940131299?text=Tenho%20interesse%20em%20fazer%20um%20orçamento"
+            target="_blank"
+          >
+            <FaWhatsapp
+              size={32}
+              className="text-white hover:scale-110 duration-300 ease-out cursor-pointer"
+            />
+          </a>
         </ul>
       </nav>
     </>

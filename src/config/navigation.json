@@ -1,10 +1,6 @@
 {
   "links": [
     {
-      "text": "Home",
-      "url": "#topo"
-    },
-    {
       "text": "Empresa",
       "url": "#empresa"
     },
@@ -13,34 +9,30 @@
       "url": "#servicos"
     },
     {
-      "text": "Cases",
-      "url": "#cases"
+      "text": "Clientes",
+      "url": "#clientes"
     },
     {
-      "text": "Contato",
-      "url": "#contato"
+      "text": "Orçamento",
+      "url": ""
     }
   ],
   "linksMobile": [
     {
-      "text": "Home",
-      "url": "#topo"
+      "text": "Serviços",
+      "url": "#servicos"
     },
     {
       "text": "Empresa",
       "url": "#empresa"
     },
     {
-      "text": "Servicos",
-      "url": "#servicos"
+      "text": "Clientes",
+      "url": "#clientes"
     },
     {
-      "text": "Cases",
-      "url": "#cases"
-    },
-    {
-      "text": "Contato",
-      "url": "#contato"
+      "text": "Orçamento",
+      "url": ""
     }
   ],
   "social": {},

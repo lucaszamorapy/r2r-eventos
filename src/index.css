@@ -117,3 +117,21 @@
 .menu-open {
   overflow: hidden;
 }
+
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #ce9597;
+  position: absolute;
+  bottom: 5px;
+  left: -5px;
+  border-radius: 0.2rem;
+  z-index: -1;
+}

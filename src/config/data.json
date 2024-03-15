@@ -1,0 +1,39 @@
+{
+  "contatoInfo": [
+    {}
+  ],
+  "servicosInfo": [
+    {
+      "image": "./images/servicos/1.jpg",
+      "text": "Iluminação"
+    },
+    {
+      "image": "./images/servicos/2.jpg",
+      "text": "Backdrop"
+    },
+    {
+      "image": "./images/servicos/3.jpg",
+      "text": "Estrutura de box truss"
+    },
+    {
+      "image": "./images/servicos/4.jpg",
+      "text": "Stand de box truss"
+    },
+    {
+      "image": "./images/servicos/5.jpg",
+      "text": "Palcos"
+    },
+    {
+      "image": "./images/servicos/6.jpg",
+      "text": "Passarelas"
+    },
+    {
+      "image": "./images/servicos/7.jpg",
+      "text": "Painel de led"
+    },
+    {
+      "image": "./images/servicos/8.jpg",
+      "text": "Pórticos"
+    }
+  ]
+}
