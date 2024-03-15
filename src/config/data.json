@@ -1,6 +1,20 @@
 {
   "contatoInfo": [
-    {}
+    {
+      "image": "./images/icons/map.png",
+      "title": "Endereço",
+      "text": "São Bernardo do Campo - SP"
+    },
+    {
+      "image": "./images/icons/email.png",
+      "title": "Email",
+      "text": "contato@r2reventos.com.br"
+    },
+    {
+      "image": "./images/icons/tel.png",
+      "title": "Telefone",
+      "text": "(11) 94013-1299"
+    }
   ],
   "servicosInfo": [
     {

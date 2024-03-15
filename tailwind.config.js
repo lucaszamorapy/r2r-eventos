@@ -16,6 +16,7 @@ export default {
       colors: {
         redR2R: "#982125",
         redR2R200: "#831E21",
+        redR2R300: "#712C2E",
         brownR2R: "#40393B",
       },
     },
