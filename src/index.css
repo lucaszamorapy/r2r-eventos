@@ -118,7 +118,7 @@
   overflow: hidden;
 }
 
-.title {
+/* .title {
   position: relative;
   z-index: 1;
 }
@@ -134,4 +134,4 @@
   left: -5px;
   border-radius: 0.2rem;
   z-index: -1;
-}
+} */
