@@ -3,11 +3,11 @@ import data from "../../config/data.json";
 
 const Contato = () => {
   const { contatoInfo } = data;
-  const [contato, setContato] = React.useState(null);
+  const [contato, setContato] = React.useState("");
 
   useEffect(() => {
     setContato(contatoInfo);
-  }, [contatoInfo]);
+  }, [contato]);
 
   return (
     <section className="mt-10 lg:mt-20 px-5 py-10 bg-redR2R lg:px-0">
