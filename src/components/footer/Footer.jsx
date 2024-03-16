@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         {/* second footer */}
         <div className="flex flex-col justify-center text-sm items-center gap-5 border-t-2 border-white lg:justify-between lg:flex-row lg:gap-0">
-          <ul className="flex gap-x-8 px-4 py-4">
+          <ul className="flex gap-x-8 px-4 py-4 ">
             <li className="hover:scale-110 duration-300 ease-out">
               <a
                 href="https://www.facebook.com/r2reventos/"
@@ -90,7 +90,7 @@ const Footer = () => {
           <p className="text-white flex items-center">
             2024 © R2R Eventos. All Rights Reserved.
           </p>
-          <p className="text-white flex items-center">
+          <p className="text-white flex items-center pb-2 lg:pb-0">
             Desenvolvido por
             <span className="text-white flex items-center ml-1">
               <a href=""> Lucas Zamora</a>

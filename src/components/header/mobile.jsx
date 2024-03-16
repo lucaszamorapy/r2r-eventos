@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { useEffect } from "react";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Mobile = ({ isOpened, links }) => {
   useEffect(() => {
@@ -80,6 +81,15 @@ const Mobile = ({ isOpened, links }) => {
               rel="noopener noreferrer"
             >
               <FaInstagram size={32} color="#FFFFFF" />
+            </a>
+          </li>
+          <li className="hover:scale-110 duration-300 ease-out">
+            <a
+              href="mailto:contato@r2reventos.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdOutlineEmail size={32} color="#FFFFFF" />
             </a>
           </li>
         </ul>
