@@ -12,7 +12,7 @@ const Contato = () => {
   return (
     <section className="mt-10 lg:mt-20 px-5 py-10 bg-redR2R lg:px-0">
       <div className="container">
-        <div className="flex flex-col items-center gap-32 justify-center lg:flex-row">
+        <div className="flex flex-col items-center gap-10 justify-center lg:gap-32 lg:flex-row">
           {contato &&
             contato.map((info, index) => (
               <div

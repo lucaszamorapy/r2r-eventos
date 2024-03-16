@@ -9,32 +9,8 @@
       "url": "#servicos"
     },
     {
-      "text": "Clientes",
-      "url": "#clientes"
-    },
-    {
-      "text": "Orçamento",
-      "url": ""
+      "text": "Parceiros",
+      "url": "#parceiros"
     }
-  ],
-  "linksMobile": [
-    {
-      "text": "Serviços",
-      "url": "#servicos"
-    },
-    {
-      "text": "Empresa",
-      "url": "#empresa"
-    },
-    {
-      "text": "Clientes",
-      "url": "#clientes"
-    },
-    {
-      "text": "Orçamento",
-      "url": ""
-    }
-  ],
-  "social": {},
-  "logos": {}
+  ]
 }

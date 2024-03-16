@@ -43,10 +43,10 @@ const Desktop = ({ isOpened, action, links }) => {
       <nav className="hidden lg:flex items-center justify-center">
         <ul className="flex gap-3 items-center lg:gap-6">
           {links.map((link, index) => (
-            <li className="text-sm font-light" key={index}>
+            <li className="text-md" key={index}>
               {/* Link de rolagem suave */}
               <ScrollLink
-                className="cursor-pointer uppercase border px-5 py-1 rounded-lg text-white hover:bg-white hover:text-redR2R duration-300 ease-out"
+                className="cursor-pointer uppercase border px-5 py-2 rounded-lg text-white hover:bg-white hover:text-redR2R duration-300 ease-out"
                 to={link.url.substring(1)}
                 spy={true}
                 smooth={true}
@@ -57,6 +57,15 @@ const Desktop = ({ isOpened, action, links }) => {
               </ScrollLink>
             </li>
           ))}
+          <div className="text-md">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511940131299&text=Tenho+interesse+em+fazer+um+or%C3%A7amento&type=phone_number&app_absent=0"
+              target="_blank"
+              className="cursor-pointer uppercase border px-5 py-2 rounded-lg text-white hover:bg-white hover:text-redR2R duration-300 ease-out"
+            >
+              Orçamento
+            </a>
+          </div>
           <a
             href="https://wa.me/5511940131299?text=Tenho%20interesse%20em%20fazer%20um%20orçamento"
             target="_blank"

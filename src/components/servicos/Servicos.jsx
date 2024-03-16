@@ -6,7 +6,7 @@ const Servicos = () => {
     <>
       <section id="servicos" className="mt-10 lg:mt-20 px-5 lg:px-0">
         <div className="container">
-          <h1 className="text-5xl title uppercase font-semibold text-redR2R200 lg:text-6xl ">
+          <h1 className="text-4xl  uppercase font-semibold text-redR2R200">
             Serviços
           </h1>
           <div className="grid grid-cols-1 mt-10 gap-5 lg:grid-cols-4 ">

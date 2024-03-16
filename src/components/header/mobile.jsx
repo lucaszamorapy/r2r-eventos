@@ -43,9 +43,18 @@ const Mobile = ({ isOpened, links }) => {
               </Link>
             </li>
           ))}
+          <div className="text-md">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511940131299&text=Tenho+interesse+em+fazer+um+or%C3%A7amento&type=phone_number&app_absent=0"
+              target="_blank"
+              className="link-list text-white uppercase text-sm font-medium"
+            >
+              Orçamento
+            </a>
+          </div>
         </ul>
 
-        <ul className="flex justify-center gap-x-10 px-4 bg-blackBirdz py-4">
+        <ul className="flex justify-center gap-x-10 px-4  py-4">
           <li>
             <a
               href="https://www.facebook.com/r2reventos/"

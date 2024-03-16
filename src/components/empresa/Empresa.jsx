@@ -7,7 +7,7 @@ const Empresa = () => {
       <div className="container">
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-2  lg:gap-20">
           <div className="flex flex-col justify-center">
-            <h1 className="text-5xl title uppercase font-semibold text-redR2R200 lg:text-6xl">
+            <h1 className="text-4xl uppercase font-semibold text-redR2R200">
               Quem somos
             </h1>
             <p className="mt-10">

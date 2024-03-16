@@ -25,7 +25,7 @@ const SlideBanner = () => {
   };
 
   return (
-    <section className="mt-[105px]">
+    <section className="mt-[97px] lg:mt-[105px]">
       <Swiper {...swiperSettings} className="mySwiper">
         {imageNumbers.map((number) => (
           <SwiperSlide key={number}>

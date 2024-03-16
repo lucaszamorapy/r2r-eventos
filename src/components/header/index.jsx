@@ -18,7 +18,7 @@ const Header = () => {
     document.body.classList.remove("menu-open");
   };
   return (
-    <header className="w-screen vidro top-0 fixed z-10 bg-redR2R  shadow-lg">
+    <header className="w-screen top-0 fixed z-10 bg-redR2R  shadow-lg">
       <div className="container lg:py-2 items-center flex justify-between xl:gap-x-6 gap-x-2 lg:p-0 p-4">
         <Desktop isOpened={isMenuOpen} action={toggleMenu} links={links} />
         <Mobile isOpened={isMenuOpen} links={links} />

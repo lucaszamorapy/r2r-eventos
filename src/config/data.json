@@ -49,5 +49,52 @@
       "image": "./images/servicos/8.jpg",
       "text": "Pórticos"
     }
+  ],
+  "footerInfo": [
+    {
+      "servicesText": "Stand de box truss"
+    },
+    {
+      "servicesText": "Estrutura de box truss"
+    },
+    {
+      "servicesText": "Iluminação"
+    },
+    {
+      "servicesText": "Painel de LED"
+    },
+    {
+      "servicesText": "Backdrop"
+    },
+    {
+      "servicesText": "Palcos"
+    },
+    {
+      "servicesText": "Pórticos"
+    },
+    {
+      "servicesText": "Passarelas"
+    },
+    {
+      "parceirosText": "Cereja Flor Eventos"
+    },
+    {
+      "parceirosText": "G12 Produções e Eventos"
+    },
+    {
+      "parceirosText": "H hertz Som e Iluminação"
+    },
+    {
+      "parceirosText": "RLS Produções"
+    },
+    {
+      "parceirosText": "Pulse Produtora"
+    },
+    {
+      "parceirosText": "Led Company Eventos"
+    },
+    {
+      "parceirosText": "J.Duart Web"
+    }
   ]
 }
