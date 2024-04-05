@@ -5,10 +5,10 @@ import "swiper/css";
 
 const SlideBanner = () => {
   const getImagePath = (number) => {
-    return `/images/carousel/${number}.jpg`; // Caminho para a pasta public/images/clientes
+    return `/images/carousel/${number}.png`; // Caminho para a pasta public/images/clientes
   };
   // Array com números de 1 a 30
-  const imageNumbers = Array.from({ length: 7 }, (_, i) => i + 1);
+  const imageNumbers = Array.from({ length: 6 }, (_, i) => i + 1);
 
   const swiperSettings = {
     effect: "slide",
@@ -23,7 +23,6 @@ const SlideBanner = () => {
     speed: 10000, // Defina uma velocidade alta para que pareça contínuo
     loop: true, // Ativa o looping infinito
   };
-
   return (
     <section className="mt-[97px] lg:mt-[105px]">
       <Swiper {...swiperSettings} className="mySwiper">
@@ -32,7 +31,7 @@ const SlideBanner = () => {
             <img
               src={getImagePath(number)}
               alt={`Slide ${number}`}
-              className=" max-h-full w-full object-cover"
+              className=" w-full h-[600px] object-cover"
             />
           </SwiperSlide>
         ))}
