@@ -3,7 +3,7 @@ import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { useEffect } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 
-const Mobile = ({ isOpened, links }) => {
+const Mobile = ({ isOpened, links, toggleMenu }) => {
   useEffect(() => {
     const updateURL = () => {
       // Check if the page is reloaded (not a navigation within the page)
@@ -27,7 +27,7 @@ const Mobile = ({ isOpened, links }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="link-list text-white uppercase text-sm font-medium"
+                className="link-list text-white uppercase text-sm font-medium cursor-pointer"
                 onClick={(e) => {
                   if (link.url.startsWith("#")) {
                     e.preventDefault();
@@ -38,6 +38,8 @@ const Mobile = ({ isOpened, links }) => {
                     // Update the URL without triggering a page reload
                     window.history.replaceState({}, "", `#${sectionId}`);
                   }
+
+                  toggleMenu(); // Adiciona o seu onClick isOpened aqui
                 }}
               >
                 {link.text}
