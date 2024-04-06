@@ -21,7 +21,7 @@ const Forms = () => {
     request(url, options); // Envia a requisição HTTP
   };
   return (
-    <section className="mt-20">
+    <section className="mt-20 px-5 lg:px-0">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div>
@@ -55,7 +55,7 @@ const Forms = () => {
             )}
           </form>
           {responseMessage && (
-            <h1 className="text-greenCauchioli-400 text-2xl text-center font-bold my-10">
+            <h1 className="text-black text-2xl text-center font-bold my-10">
               {responseMessage}
             </h1>
           )}

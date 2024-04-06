@@ -7,7 +7,7 @@ const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
       <input
         id={name}
         name={name}
-        className=" outline-none border-b-2 border-redR2R py-1 w-[500px] "
+        className=" outline-none border-b-2 border-redR2R py-1 lg:w-[500px] "
         type={type}
         onChange={onChange}
         value={value}

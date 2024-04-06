@@ -22,9 +22,9 @@ const useFetch = () => {
         );
         setIsSubmitDisabled(true);
       }
-    } catch (err) {
-      json = null;
-      setError(err.message);
+    } catch (error) {
+      console.error("Erro na solicitação:", error);
+      setResponseMessage("Erro ao enviar o email");
     } finally {
       setData(json);
       setLoading(false);
