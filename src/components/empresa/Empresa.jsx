@@ -3,7 +3,11 @@ import mapa from "../../../public/images/localizacao.png";
 
 const Empresa = () => {
   return (
-    <section id="empresa" className="mt-10 px-5 lg:mt-20 lg:px-0">
+    <section
+      id="empresa"
+      className="mt-10 px-5 lg:mt-20 lg:px-0"
+      data-aos="fade-up"
+    >
       <div className="container">
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-2  lg:gap-20">
           <div className="flex flex-col justify-center">

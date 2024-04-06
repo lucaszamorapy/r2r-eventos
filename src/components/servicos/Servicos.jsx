@@ -4,7 +4,11 @@ import data from "../../config/data.json";
 const Servicos = () => {
   return (
     <>
-      <section id="servicos" className="mt-10 lg:mt-20 px-5 lg:px-0">
+      <section
+        id="servicos"
+        className="mt-10 lg:mt-20 px-5 lg:px-0"
+        data-aos="fade-down"
+      >
         <div className="container">
           <h1 className="text-4xl  uppercase font-semibold text-redR2R200">
             Serviços

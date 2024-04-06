@@ -21,7 +21,7 @@ const Forms = () => {
     request(url, options); // Envia a requisição HTTP
   };
   return (
-    <section className="mt-20 px-5 lg:px-0">
+    <section className="mt-20 px-5 lg:px-0" data-aos="fade-up">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div>

@@ -27,7 +27,11 @@ const Cliente = () => {
   };
 
   return (
-    <section id="parceiros" className="mt-10 px-5 lg:mt-20 lg:px-0">
+    <section
+      id="parceiros"
+      className="mt-10 px-5 lg:mt-20 lg:px-0"
+      data-aos="fade-up"
+    >
       <div className="container">
         <h1 className="text-4xl uppercase font-semibold text-center text-brownR2R ">
           Aprovado por <span className="text-redR2R">grandes empresas!</span>
