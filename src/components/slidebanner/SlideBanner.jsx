@@ -31,7 +31,7 @@ const SlideBanner = () => {
             <img
               src={getImagePath(number)}
               alt={`Slide ${number}`}
-              className=" w-full h-[600px] object-cover"
+              className=" w-full lg:h-[600px] object-cover"
             />
           </SwiperSlide>
         ))}
