@@ -1,8 +1,10 @@
 import React from "react";
 import logo from "../../../public/images/logo-2.png";
 import data from "../../config/data.json";
-import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { RiFacebookCircleLine } from "react-icons/ri";
 import { MdOutlineEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,7 +22,7 @@ const Footer = () => {
                 Serviços
               </h1>
               <ul className="flex justify-center flex-col">
-                {data["footerInfo"].map((info, index) => (
+                {data.footerInfo.map((info, index) => (
                   <li
                     className="text-sm text-white gap-2 lg:text-lg"
                     id={index}
@@ -51,31 +53,19 @@ const Footer = () => {
         <div className="flex flex-col justify-center text-sm items-center gap-5 border-t-2 border-white lg:justify-between lg:flex-row lg:gap-0">
           <ul className="flex gap-x-8 px-4 py-4 ">
             <li className="hover:scale-110 duration-300 ease-out">
-              <a
-                href="https://www.facebook.com/r2reventos/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebook size={32} color="#FFFFFF" />
-              </a>
+              <Link to={data.linkSocial.facebook} target="_blank">
+                <RiFacebookCircleLine size={35} color="#FFFFFF" />
+              </Link>
             </li>
             <li className="hover:scale-110 duration-300 ease-out">
-              <a
-                href="https://web.whatsapp.com/send?phone=5511940131299"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link to={data.linkSocial.whatsApp} target="_blank">
                 <FaWhatsapp size={32} color="#FFFFFF" />
-              </a>
+              </Link>
             </li>
             <li className="hover:scale-110 duration-300 ease-out">
-              <a
-                href="https://www.instagram.com/r2reventos/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link to={data.linkSocial.instagram} target="_blank">
                 <FaInstagram size={32} color="#FFFFFF" />
-              </a>
+              </Link>
             </li>
             <li className="hover:scale-110 duration-300 ease-out">
               <a

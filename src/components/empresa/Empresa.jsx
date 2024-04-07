@@ -10,7 +10,7 @@ const Empresa = () => {
             <h1 className="text-4xl uppercase font-semibold text-redR2R200">
               Quem somos
             </h1>
-            <p className="mt-10">
+            <p className="mt-10 text-justify lg:text-start">
               R2R Eventos é uma empresa especializada em iluminação profissional
               para eventos. Nosso objetivo é proporcionar soluções de excelência
               para eventos corporativos, shows, feiras e tendas, buscando não

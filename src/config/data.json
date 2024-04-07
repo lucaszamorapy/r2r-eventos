@@ -96,5 +96,10 @@
     {
       "parceirosText": "J.Duart Web"
     }
-  ]
+  ],
+  "linkSocial": {
+    "facebook": "https://www.facebook.com/r2reventos/",
+    "whatsApp": "https://web.whatsapp.com/send?phone=5511940131299",
+    "instagram": "https://www.instagram.com/r2reventos/"
+  }
 }
